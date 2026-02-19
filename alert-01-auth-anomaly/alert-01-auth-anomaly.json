@@ -1,0 +1,13 @@
+{
+    "alert_id": "AUTH-001",
+    "alert_name": "Multiple Failed Login Attempts",
+    "severity": "Medium",
+    "source": "Authentication Logs",
+    "timestamp": "2026-02-19T02:14:22Z",
+    "user": "jdoe",
+    "source_ip": "185.203.118.44",
+    "location": "Unknown",
+    "event_count": 7,
+    "action": "Login Failed"
+  }
+  
